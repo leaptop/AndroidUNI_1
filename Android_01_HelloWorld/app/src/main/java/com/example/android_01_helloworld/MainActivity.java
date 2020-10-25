@@ -15,6 +15,9 @@ import android.view.View;
 
 import com.example.android_01_helloworld.ui.main.SectionsPagerAdapter;
 
+/**
+ * This is my first class for mobile development in the 7-th semester.
+ */
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -37,11 +40,26 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    /** Комментарии именно такого вида сохраняются
+     * с помощью утилиты javadoc
+     * The min function finds and returns
+     * a minimal of two integers.
+     * @param a is the first integer to compare
+     * @param b is the second integer to compare
+     * @return returns the minimum
+     */
     public int min(int a, int b) {
         if (a > b) return b;
         else return a;
     }
 
+    /**
+     * The max function finds and returns
+     * the maximum of two integers inserted
+     * @param a is the first integer to compare
+     * @param b is the second integer to compare
+     * @return this statement returns the maximum
+     */
     public int max(int a, int b) {
         if (a > b) return a;
         else return b;
